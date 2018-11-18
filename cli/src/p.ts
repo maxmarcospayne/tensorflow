@@ -1,9 +1,11 @@
 import {NgModule} from "@angular/core";
+import {CsvParseService} from '@odin/csv';
 
-@NgModule({imports: []})
+@NgModule({imports: [], providers: [CsvParseService]})
 class CliModule {
-  public constructor(){
+  public constructor(csv: CsvParseService){
     console.log('bootstraps');
+    csv.parse('/home/francisco/Downloads/california_housing_train.csv');
   }
 };
-new CliModule();
+new CliModule(new CsvParseService());

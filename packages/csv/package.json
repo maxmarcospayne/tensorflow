@@ -1,0 +1,23 @@
+{
+  "name": "@odin/csv",
+  "version": "1.0.0",
+  "main": "./src/csv.parse.service.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "~7.0.0",
+    "@angular/compiler": "~7.0.0",
+    "@angular/core": "~7.0.0",
+    "@tensorflow/tfjs-node-gpu": "0.1.20",
+    "@types/node": "~10.11.7",
+    "csv-parse": "^3.2.0",
+    "stream-transform": "^1.0.7",
+    "ts-node": "^7.0.1",
+    "ts-stream": "^2.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "3.1.1"
+  },
+  "dependencies": {
+    "@angular/core": "^7.0.4",
+    "stream-transform": "^1.0.7"
+  }
+}
