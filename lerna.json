@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "cli/*",
+    "client/*",
+    "packages/*",
+    "server/*"
+  ],
+  "version": "0.0.0"
+}

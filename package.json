@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index",
+    "test": "ts-node src/parse"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "0.1.20",
+    "@types/node": "~10.11.7",
+    "csv-parse": "^3.2.0",
+    "stream-transform": "^1.0.7",
+    "ts-node": "^7.0.1",
+    "ts-stream": "^2.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "3.1.1"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "license": "MIT",
+  "name": "tensorflow",
+  "devDependencies": {
+    "lerna": "^3.2.1"
+  }
+}
